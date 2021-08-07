@@ -41,7 +41,7 @@ while date:
         dat = driver.find_elements_by_xpath("//*[@class='review-date-submissionTime']")
         for wr in dat:
             date=wr.text.split()[0]
-            if date=='June':
+            if date=='December':
                 a=False
                 break
             dates.append(wr.text)
